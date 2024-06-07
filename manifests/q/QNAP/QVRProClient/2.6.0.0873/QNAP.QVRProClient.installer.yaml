@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: QNAP.QVRProClient
+PackageVersion: "2.6.0.0873"
+InstallerType: nullsoft
+Scope: machine
+UpgradeBehavior: install
+ElevationRequirement: elevatesSelf
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download.qnap.com/Storage/Utility/QVRProClientWinX64-2.6.0.0873.exe
+  InstallerSha256: 4cd304bed93be0047a51b2491f5944afb6b478f6e5d4fa8a1ef1b32f6ea21f31
+ManifestType: installer
+ManifestVersion: 1.6.0

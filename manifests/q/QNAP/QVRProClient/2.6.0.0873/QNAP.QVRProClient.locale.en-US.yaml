@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: QNAP.QVRProClient
+PackageVersion: "2.6.0.0873"
+PackageLocale: en-US
+Publisher: QNAP Systems, Inc.
+PublisherUrl: https://www.qnap.com/
+PackageName: QNAP QVR Pro Client
+PackageUrl: https://www.qnap.com/en/utilities/surveillance
+License: Copyright © QNAP Corporation. All Rights Reserved.
+ShortDescription: QVR Pro Client is a client application for QNAP surveillance system, supporting QVR Pro, QVR Elite and QVP series surveillance appliances.
+Tags:
+- surveillance
+ReleaseNotes: '[New Features]
+- You can now log into QNAP IP and import QID devices to QVR Pro Client.
+- You can now choose the connecting method while logging into a QID device, including myQNAPCloud Link and DDNS.
+- You can now change the font size and UI Scale of QVR Pro Client.
+- You can now choose from 3 alignment options: Center / Left / Right.
+- You can now control the visibility of each panel from one menu.
+- You can now check account and device info and open QVR Server Homepage in "Account Info".
+- You can now check release notes from QVR Pro Client.
+[Fixed Issues]
+- Fixed an issue where QVR Pro Client cannot remember the window size.
+- Fixed an issue where QVR Pro Client is unable to show the secondary screen of video wall when logging in.'
+ReleaseNotesUrl: https://www.qnap.com/en/utilities/surveillance?utilityId=15&notes=Windows
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
